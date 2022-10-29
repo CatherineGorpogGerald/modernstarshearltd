@@ -1,0 +1,694 @@
+/****HOLY SPIRIT PLEASE TAKE THE WHEEL*********************************************************/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+    
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+p,a{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100 bold;
+
+}
+/****************************************************/
+.navbar{
+    background-color: rgb(0,0,0,0.1);
+box-shadow: 0px 0px 0px #fff;
+transition: background-color 1s ease 0s;
+height: 95px;
+}
+.navbar.solid {
+    transition: background-color 1s ease 0s; 
+}
+
+.nav-item{
+	font-size: 15px;
+	padding: 15px;
+	margin-left: 100px;
+	
+}
+.nav-link {
+	color: #FFF!important;
+  font-weight:bolder;
+  font-size: 18px;
+  
+}
+/******************************************************************************SLIDER*************************************************************************/
+  .carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+ }
+ .carousel-item::before{
+  content: "" ;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background:rgba(10,20,2,0.4); 
+  opacity: 0.5;
+ } 
+ .carousel-caption{
+  bottom:100px;
+  padding-left:100px;
+  padding-right: 100px;
+ }
+ .carousel-caption p{
+  font-size:2.5rem!important;
+  font-weight: 700px;
+  padding: 5px;
+  background: rgba(0,10,5,0.2);
+  text-shadow: 5px!important;
+  text-decoration-color: green!important;
+
+ }
+  .carousel-caption h3{
+  font-size:30px;
+  font-weight: bolder;
+
+  
+ }
+ 
+ .slider-btn{
+  margin-top: 0px;
+ }
+
+ .slider-btn .btn{
+  background-color: green;
+  color:  #ffffff;
+  border:none;
+  padding: 8px;
+  font-size: 1rem;
+  margin-right: 15px;
+  text-decoration: none;
+ }
+
+.carousel-caption {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: #565689;
+padding-bottom:5rem!important;
+}
+.carousel-caption h5,h4,h3{
+  font-family: agenda,sans-serif!important;
+  font-weight: inherit;
+  color: #fff;
+  padding: 10rem; 
+  text-align: center;
+font-size: inherit;
+font-size: 3em;
+}
+
+.carousel-caption h3{
+  
+  font-weight: inherit;
+  color: #fff;
+  padding: 10rem;
+  font-size: inherit;
+   text-align: center;
+  font-family: agenda,sans-serif!important;
+}
+.carousel-caption h6{
+  font-family: agenda,sans-serif!important;
+  font-weight: inherit;
+  color: #fff;
+  padding: 60px;
+  background-color:rgb(0,0,0,0.4);
+  padding: 10px;
+
+}
+.carousel-caption p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100 bold;
+  color:#ffffff;
+
+}
+
+@media screen and (max-width:990px){
+    .respons{
+        width: 100%;
+     }
+     .banner-inner{width: 100%;}
+}
+
+/*********************************************intro******************************************************************/
+
+
+
+/* motto  */
+
+.motto{
+  padding:2.5rem;
+  background-color:#64741e;
+  color:#fff!important;
+}
+/* end of motto */
+
+#intro{
+  padding-top:6rem;
+}
+
+.intro-text{
+  margin-left:-150px!important;
+  padding:2rem;
+  background-color:#fff!important;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+.intro-text h2{
+  color: #64741e;
+  font-size: 25px;
+  font-weight: inherit;
+  padding: 1em;
+  font-family: agenda,sans-serif!important;
+}
+
+/* call to action */
+.cta{
+  width:100%;
+padding:7rem;
+  background:linear-gradient(rgba(100,116,30,0.5),rgba(100,116,30,0.5)),url('../images/butter.jpg') no-repeat center center;
+  background-size:cover;
+  margin-top:10rem;
+  color:#fff!important;
+}
+.cta p{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a.readmore{
+  display: inline-block;
+  padding:8px 20px;
+  border:none;
+  color:#fff;
+  text-decoration: none;
+  background:#756920;
+
+}
+
+a.btn{
+  display: inline-block;
+  padding:8px 20px;
+  border:none;
+  color:#fff;
+  text-decoration: none;
+  background:green;
+
+}
+.contex{
+	height: 500px;
+	background-color:;
+  display: flex;
+ background:linear-gradient(rgba(1, 1, 1, 0),rgba(1, 2, 2, 0.2)),url('../images/work.jpg') center center no-repeat;
+ background-size:cover;
+  min-height: 400px;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+.word{
+  color: #ffffff;
+ height: 250px;
+  align-items: center;
+  text-align: center;
+  margin-right: -100px;
+  background-color: rgba(0,0,0,0.5);
+box-shadow: 3px 6px 20px transparent;
+transition: background-color 1s ease 0s;
+font-size: 18px;
+
+line-height: 1.5em;
+}
+/**************************************************************************************************************************************************************************/
+
+.certificates{
+  padding:2.5rem;
+  background-color:#64741e;
+  color:#fff!important;
+}
+.certs{
+  display: flex;
+
+}
+.certificates h2{
+  color: #fff;
+  font-size: 25px;
+  font-weight: inherit;
+  
+  font-family: agenda,sans-serif!important;
+}
+
+ .card{
+  margin:3em;
+  
+ }
+
+ .card-body {
+  text-decoration: none;
+  background-color: transparent;
+  color:black;
+  display: inline-block;
+  padding: 7px 20px;
+ 
+  border-radius: 20px,30px green;
+} 
+
+.card-text p{
+  padding: 1em;
+}
+
+
+/* footer */
+footer{
+  background-color:rgba(0,0,0,.87);
+  justify-content: space-between;
+  height: 430px;
+  margin-top: 3em;
+  padding: 2em;
+}
+ footer a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  line-height: 2em;
+ 
+  font-size: 1em;
+
+}
+footer i {
+  color: #fff;
+  font-weight: 
+  font-size: 2em;
+  padding-right:5px;
+}
+footer p {
+  color: #fff;
+  line-height: 2em;
+ 
+  font-size: 1em;
+}
+footer label {
+  color: #fff;
+  line-height: 2em;
+ 
+  
+}
+footer col {
+  color: #fff;
+  line-height: 2em;
+ 
+  
+}
+footer .btn-primary{
+  color: #fff!important;
+  font-weight: bold;
+  background-color: rgba(0,0,0,.87);
+  border: #fff;
+  
+}
+footer .btn-primary:hover{
+  background:green!important;
+}
+footer.form{
+  background:green!important;
+}
+footer .type {
+  color: green;
+   
+}
+
+footer hr {
+  color: #fff;
+  font-weight: bold;
+}
+footer h5 {
+  color:#fff;
+  line-height: 2em;
+  font-weight: bold;
+  
+}
+/* end of footer */
+
+/***************************************************************************ABOUT US*******************************************************************************/
+
+.about-header{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('../images/school.jpeg') no-repeat center center;
+  background-size:cover;
+  color:#fff;
+  text-align: center;
+}
+
+.about-header h2{
+  font-size: 2rem;
+}
+
+#profile{
+  padding-top:6rem;
+  height: 550px;
+}
+
+.profile-text{
+  margin-left:-150px!important;
+  padding:2rem;
+  background-color:#fff!important;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+.about-text p{
+  color: #64741e;
+  font-size: 25px;
+  font-weight: inherit;
+  padding: 1em;
+  font-family: agenda,sans-serif!important;
+}
+
+.cta-1{
+  width:100%;
+padding:2px;
+  background:linear-gradient(rgba(100,116,30,0.5),rgba(10,13,30,0.5)),url('../images/isac.jpeg') no-repeat center center;
+  background-size:cover;
+  margin-top:10rem;
+  color:#fff!important;
+  height: 300px;
+  justify-content: center;
+
+ 
+}
+.cta-1 p{
+  font-size: 18px;
+ 
+  
+}
+.cta-1 h3{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em;
+  
+}
+
+.vision h3{
+  padding:2.5rem;
+  background-color:#64741e;
+  color:#fff!important;
+}
+.certs{
+  display: flex;
+  
+
+}
+
+
+/*****************************************************SHOP*******************************************************************************************************/
+.shop{
+  display: flex;
+  height: 600px;
+}
+.shop-header{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('../images/thehand.jpg') no-repeat center center;
+  background-size:cover;
+  color:#fff;
+  text-align: center;
+}
+
+.shop-header p{
+  font-size: 2rem;
+}
+
+.shop a{
+  font-size: 15px;
+  color: green!important;
+ background-color: ;
+ border-radius: solid green;
+ width: 50px;
+
+}
+/*************************************************************Gallery**********************************************************************************************/
+
+.Gallery{
+  margin:20px;
+
+
+}
+
+
+
+
+/************************************************************PROJECTS**************************************************************************************************/
+
+.project-header{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('../images/coffee.webp') no-repeat center center;
+  background-size:cover;
+  color:#fff;
+  text-align: center;
+}
+
+.project-header h2{
+  font-size: 2rem;
+}
+
+.project{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+ 
+  height: 300px;
+}
+
+.project-container img{
+  width:100%;
+  height: auto;
+}
+
+.project-container .project-card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2rem;
+  background:#f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.project-card h3{
+  margin-bottom: 2rem;
+}
+.project-card > div{
+  padding:2rem;
+}
+.project-card:nth-child(even) img{
+  order:2;
+}
+
+.btn{
+  display: inline-block;
+  background:#01603d;
+  color:#fff;
+  padding:0.8rem 1.8rem;
+  margin-top:2rem;
+  cursor: pointer;
+}
+.btn:hover{
+  opacity: 0.8;
+  color:#fff;
+}
+
+.btn2{
+  display: inline-block;
+  border:1px solid #000;
+  color:#fff;
+  background:tomato;
+  padding:0.8rem 1.8rem;
+ 
+  cursor: pointer;
+}
+.btn2:hover{
+  opacity: 0.8;
+   color:rgba(8, 1, 1, 0.568);
+   text-decoration: none;
+}
+
+
+.btn3{
+  display: inline-block;
+  border:none;
+  color:#fff;
+  background:#756920;;
+  padding:0.2rem 1.2rem;
+ font-size:15px;
+  cursor: pointer;
+}
+.btn3:hover{
+  opacity: 0.8;
+   color:rgba(8, 1, 1, 0.568);
+   text-decoration: none;
+}
+.card-body a{
+ 
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.card-title{
+  color: green;
+  font-weight: bold;
+}
+.project .card-text{
+  font-size: 20px;
+  color: goldenrod;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-text a{
+  font-size: 20px;
+  color: goldenrod;
+  font-weight: bold;
+
+}
+
+ span{
+  text-align: center;
+}
+
+/******************** media queries ************************/
+
+
+@media(max-width: 992px) {
+  .project-card {
+  
+     grid-template-columns: 1fr;
+    width:100%;
+  }
+}
+
+
+
+
+.project1{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 350px;
+}
+
+
+.project1-container img{
+  width:100%;
+  height: auto;
+}
+
+.project1-container .project-card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2rem;
+  background:#f1f1f1;
+  margin-bottom: 10px;
+}
+
+.project1-card h3{
+  margin-bottom: 2rem;
+}
+.project1-card > div{
+  padding:2rem;
+}
+.project1-card:nth-child(even) img{
+  order:2;
+}
+
+/********************************************************************CONTACT**********************************************************************************/
+.contact-header{
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/contact.jpg') no-repeat center center;
+  background-size:cover;
+  color:#fff;
+  text-align: center;
+}
+
+.contact-header p{
+  font-size: 2rem;
+}
+
+.contact{
+  display: flex;
+  margin:10px;
+  padding: 5px;
+}
+
+.form{
+  width: 40%;
+  color: #444;
+  margin-top: 20px;
+}
+.form .btn-primary{
+  color: #fff!important;
+  font-weight: bold;
+  background-color: #444;
+  border: #fff;
+  
+} 
+.form .btn-primary:hover{
+  background:green!important;
+}
+
+.address{
+  width: 55%;
+ 
+  margin-top: 20px;
+}
+.address p{
+  padding: 10px;
+  margin-top: 30px;
+  color: #444;
+  font-size: 18px;
+}
+.address i{
+  display: inline-block;
+  padding: 5px;
+}
+// Example
+// Apply styles starting from medium devices and up to extra large devices
+@media (min-width: 768px) and (max-width: 1199.98px) { ... }
+
+/*******************************************************MEDIA QURIES*************************************************************************************************************/
